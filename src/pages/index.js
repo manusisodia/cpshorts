@@ -143,7 +143,8 @@ export default function Home() {
         <div>
         <h1 className="title" >
           <Link href="/">
- <a  style={{ fontFamily: 'Permanent Marker', }}>CP Shorts</a>
+ <a  style={{ fontFamily: 'Permanent Marker',color: '#ffba08',
+                    text-decoration: 'none', }}>CP Shorts</a>
 </Link>
           
         </h1>
@@ -1051,10 +1052,7 @@ export default function Home() {
                     color: inherit;
                     text-decoration: none;
                 }
-                .title Link a {
-                    color: #ffba08;
-                    text-decoration: none;
-                }
+                
                 .title Link a:hover,
                 .title Link a:focus,
                 .title Link a:active {
