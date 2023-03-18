@@ -143,7 +143,7 @@ export default function Home() {
         <div>
         <h1 className="title" >
           <Link href="/">
- <a  style={{ fontFamily: 'Permanent Marker',color: '#ffba08',
+ <a  style={{ fontFamily: 'Permanent Marker' ,color: '#ffba08',
                     text-decoration: 'none', }}>CP Shorts</a>
 </Link>
           
