@@ -316,7 +316,7 @@ export default function Home() {
         </select>
         <h2 style={{ marginBottom: 0, fontFamily: 'lato', textTransform: 'uppercase', letterSpacing: '3px', color: '#fff', }}>TAG LIST</h2>
         <ul style={{ fontFamily: 'lato', textTransform: 'uppercase', fontSize: '0.8rem', color: '#fff' }}>
-          {taglist.map(e => <li>{e}</li>).length === 0 ? (
+          {taglist.map(e => <li key={e}>{e}</li>).length === 0 ? (
             <li>No Tags Selected</li>
           ) : (
             taglist.map(e => <li key={e}>{e}</li>)
