@@ -1047,17 +1047,17 @@ export default function Home() {
                     justify-content: center;
                     align-items: center;
                 }
-                a {
+                LINK {
                     color: inherit;
                     text-decoration: none;
                 }
-                .title a {
+                .title LINK {
                     color: #ffba08;
                     text-decoration: none;
                 }
-                .title a:hover,
-                .title a:focus,
-                .title a:active {
+                .title LINK:hover,
+                .title LINK:focus,
+                .title LINK:active {
                     text-decoration: underline;
                 }
                 .title {
