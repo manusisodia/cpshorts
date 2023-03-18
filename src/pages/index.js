@@ -67,7 +67,7 @@ export default function Home() {
       }
       setProblemList(
 
-        randProb.map(p => {
+        randProb.map((p,index) => {
           const url = `https://codeforces.com/problemset/problem/${p.contestId}/${p.index}`
           return (
             <div
