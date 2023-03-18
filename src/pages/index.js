@@ -142,7 +142,7 @@ export default function Home() {
         <div id="stars3"></div>
         <div>
         <h1 className="title" >
-          <Link href="/" style={{ 
+          <Link id="mt" href="/" style={{ 
                     textDecoration: 'none', }}>
  <a  style={{ fontFamily: 'Permanent Marker' ,color: '#ffba08',
                     }}>CP Shorts</a>
@@ -1054,9 +1054,9 @@ export default function Home() {
                     text-decoration: none;
                 }
                 
-                .title Link a:hover,
-                .title Link a:focus,
-                .title Link a:active {
+                #mt:hover,
+                #mt:focus,
+                #mt:active {
                     text-decoration: underline;
                 }
                 .title {
