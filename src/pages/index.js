@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
+
 
 
 
@@ -140,7 +142,10 @@ export default function Home() {
         <div id="stars3"></div>
         <div>
         <h1 className="title" >
-          <a href="/" style={{ fontFamily: 'Permanent Marker', }}>CP Shorts</a>
+          <Link href="/">
+ <a  style={{ fontFamily: 'Permanent Marker', }}>CP Shorts</a>
+</Link>
+          
         </h1>
         </div>
         <h2 style={{ marginTop: '3rem', fontFamily: 'lato', letterSpacing: '8px', color: '#fff', textTransform: 'uppercase', }}>Rating Range</h2>
