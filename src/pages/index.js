@@ -142,9 +142,10 @@ export default function Home() {
         <div id="stars3"></div>
         <div>
         <h1 className="title" >
-          <Link href="/">
+          <Link href="/" style={{ 
+                    textDecoration: 'none', }}>
  <a  style={{ fontFamily: 'Permanent Marker' ,color: '#ffba08',
-                    textDecoration: 'none', }}>CP Shorts</a>
+                    }}>CP Shorts</a>
 </Link>
           
         </h1>
