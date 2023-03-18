@@ -70,7 +70,7 @@ export default function Home() {
         randProb.map((p,index) => {
           const url = `https://codeforces.com/problemset/problem/${p.contestId}/${p.index}`
           return (
-            <div
+            <div key={index}
               style={{
                 height: '100%',
                 width: '100%',
